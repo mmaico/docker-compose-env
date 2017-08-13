@@ -1,0 +1,7 @@
+zookeeper:
+  image: zookeeper
+  restart: always
+  ports:
+   - 2181:2181
+  environment:
+   ZOO_MY_ID: 1
